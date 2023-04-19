@@ -13,29 +13,22 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-******button :hover {
-    color: #e3b488;
-    background-color: rgb(0, 0, 0);
-    border-radius: 60px;
-    padding: 3px;
-    width: 250px;
-    height: 30px;
-}
-
 h4 {
     font-family: 'Times New Roman', Times, serif;
+    width: 15%;
 }
 
 button {
     width: 250px;
     height: 30px;
     background-color: #e3b488;
-    border-color: #e3b488;
+    border-color: #000000;
     border-radius: 50px;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
-button a {
+a {
     text-decoration: none;
     color: #000000;
     font-size: 20px
@@ -84,7 +77,7 @@ body {
     margin-top: 1cm;
     top: -380px;
     color: rgb(255, 255, 255);
-    font-size: 80px;
+    font-size: 100px;
     text-shadow:
         -1px 1px 0px #000000,
         1px 0px 0px #ffffff;
@@ -114,7 +107,7 @@ p {
 }
 
 .bolinhas img:hover {
-    -webkit-box-shadow: 0px 0px 50px #ff7b00;
+    -webkit-box-shadow: 0px 0px 50px #e3b488;
     -webkit-transform: rotate(360deg);
 }
 
@@ -130,31 +123,57 @@ h3 {
 
 
 
-
 footer {
     background-color: #F9D1AC;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 1cm;
-    text-align: center;
+    margin-top: 2cm;
+}
+
+.container {
+    display: flex;
+    align-items: end;
+    margin-left: 15%;
+
+}
+
+.logofinal img {
+    display: flex;
+    margin-left: 90px;
+    width: 250px;
+    height: 140px;
+    border-right: #000000;
 }
 
 .instagram img {
     width: 1cm;
     height: 1cm;
+    margin-left: 100px;
+    margin: 0px 5px 10px 0px;
 }
 
 .gmail img {
-    width: 1cm;
+    width: 1.7cm;
     height: 1cm;
+
 }
 
 .whatsapp img {
+    width: 2.2cm;
+    height: 1.1cm;
+    margin: 0px 5px 10px 0px;
+}
+
+.linkedin img {
     width: 1cm;
     height: 1cm;
 }
 
+.imgss{
+    display:flex;
+    justify-content: center;
+}
 
-.maps img{
-    width: 1cm;
-    height: 1cm;
+h5 {
+    text-decoration: none;
+    color: #000000;
 }
